@@ -1,17 +1,14 @@
 import './App.css';
+import Header from "./components/Header.js";
+import MainContent from "./components/MainContent.js";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
-      <img src="./logo512.png" alt="img didn't load" width="80px"></img>
-      <h1>Fun facts about React</h1>
-      <ul>
-        <li>Was first released in 2013</li>
-        <li>Was originally created by Jordan Walke</li>
-        <li>Has well over 100k stars on Github</li>
-        <li>Is maintained by Facebook</li>
-        <li>Powers thousands of enterprise apps, including mobile apps</li>
-      </ul>
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }
