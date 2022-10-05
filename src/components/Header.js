@@ -4,11 +4,12 @@ function Header() {
     return (
         <header>
             <nav className="nav">
-                <img src="./logo512.png" alt="img failed to load" className="nav-logo"/>
+                <div className="nav-logo-text">
+                    <img src="./logo512.png" alt="" className="nav-logo"/>
+                    <h2 className="nav-text">ReactFacts</h2>
+                </div>
                 <ul className="nav-items">
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <li>Tim's First React Project</li>
                 </ul>
             </nav>
         </header>
